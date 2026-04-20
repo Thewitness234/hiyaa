@@ -1,0 +1,12 @@
+import turtle # Set up turtle graphics
+t = turtle.Pen()
+turtle.bgcolor("black")
+colors = ["red", "yellow", "blue", "green"]
+your_name = turtle.textinput("Enter your name", "What is your name?")
+for x in range(100):
+ t.pencolor(colors[x%4]) # Rotate through the four colors
+ t.penup() # Don't draw the regular spiral lines
+ t.forward(x*4) # Just move the turtle on the screen
+ t.pendown() # Write the user's name, bigger each time
+ t.write(your_name, font = ("Arial", int( (x + 4) / 4), "bold") )
+ t.left(92) #

@@ -1,0 +1,21 @@
+marks = []
+m1 = int(input("enetr the marks of the stident"))
+marks.append(m1)
+
+m2 = int(input("enetr the marks of the stident"))
+marks.append(m2)
+
+m3 = int(input("enetr the marks of the stident"))
+marks.append(m3)
+
+m4 = int(input("enetr the marks of the stident"))
+marks.append(m4)
+
+m5 = int(input("enetr the marks of the stident"))
+marks.append(m5)
+
+marks.sort()
+
+print(marks)
+
+
